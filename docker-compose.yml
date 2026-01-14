@@ -1,0 +1,10 @@
+services:
+  player:
+    build: ./player
+    ports:
+      - "7001:7001"
+
+  referee:
+    build: ./referee
+    ports:
+      - "9000:9000"
